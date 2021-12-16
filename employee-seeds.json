@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Neal",
+        "age": 26,
+        "location": {
+                    "city": "Dallas",
+                    "state": "TX"
+                },
+        "img": {
+                "url": "https://i.imgur.com/NCGgvmE.jpg",
+                "title": "Profile Picture"
+            },
+        "skills": ["Coding", "Customer Service", "Design"],
+        "workHistory": [{ "title": "Programmer", "company": "GA" }],
+        "contact": {
+                    "phone": "512-915-1613",
+                    "email": "neal@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": true,
+                "wed": true,
+                "thu": true,
+                "fri": true,
+                "sat": false,
+                "sun": false
+        },
+        "min-pay": 20,
+        "rating": 5
+    },
+    {
+        "name": "David",
+        "age": 18,
+        "location": {
+                    "city": "Chicago",
+                    "state": "IL"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Customer Service", "Inventory Mangement", "Sales"],
+        "workHistory": [{ "title": "Stocker", "company": "Kroger" }],
+        "contact": {
+                    "phone": "614-273-1741",
+                    "email": "david@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": false,
+                "tue": true,
+                "wed": true,
+                "thu": true,
+                "fri": true,
+                "sat": true,
+                "sun": false
+        },
+        "min-pay": 18,
+        "rating": 2
+    },
+    {
+        "name": "Michael",
+        "age": 32,
+        "location": {
+                    "city": "Austin",
+                    "state": "TX"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Problem Solving", "Mangement", "Writing"],
+        "workHistory": [{ "title": "Manager", "company": "Wal-Mart" }],
+        "contact": {
+                    "phone": "834-523-7929",
+                    "email": "Michael@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": false,
+                "tue": true,
+                "wed": false,
+                "thu": true,
+                "fri": true,
+                "sat": true,
+                "sun": false
+        },
+        "min-pay": 22,
+        "rating": 4
+    },
+    {
+        "name": "Elizabeth",
+        "age": 25,
+        "location": {
+                    "city": "Fort Worth",
+                    "state": "TX"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Public Speaking", "Computer Skills", "Time Management"],
+        "workHistory": [{ "title": "Cashier", "company": "Macy's" }],
+        "contact": {
+                    "phone": "834-847-9432",
+                    "email": "Elizabeth@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": true,
+                "wed": true,
+                "thu": false,
+                "fri": false,
+                "sat": false,
+                "sun": false
+        },
+        "min-pay": 25,
+        "rating": 4
+    },
+    {
+        "name": "Allison",
+        "age": 18,
+        "location": {
+                    "city": "Plano",
+                    "state": "TX"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Problem Solving", "Communication", "Time Management"],
+        "workHistory": [{ "title": "Sales Associate", "company": "H&M" }],
+        "contact": {
+                    "phone": "369-151-6023",
+                    "email": "Allison@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": false,
+                "wed": true,
+                "thu": false,
+                "fri": true,
+                "sat": false,
+                "sun": false
+        },
+        "min-pay": 15,
+        "rating": 3
+    },
+    {
+        "name": "Johnny",
+        "age": 23,
+        "location": {
+                    "city": "San Francisco",
+                    "state": "CA"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Leadership", "Problem-solving", "Food Prep"],
+        "workHistory": [{ "title": "Cook", "company": "Taco Bell" }],
+        "contact": {
+                    "phone": "315-111-0829",
+                    "email": "Johnny@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": true,
+                "wed": true,
+                "thu": true,
+                "fri": true,
+                "sat": true,
+                "sun": true
+        },
+        "min-pay": 15,
+        "rating": 5
+    },
+    {
+        "name": "Mary",
+        "age": 28,
+        "location": {
+                    "city": "Seattle",
+                    "state": "WA"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Customer Service", "Interpersonal skills", "Leadership"],
+        "workHistory": [{ "title": "Hair Stylist ", "company": "Great Clips" }],
+        "contact": {
+                    "phone": "315-262-0725",
+                    "email": "Mary@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": false,
+                "wed": true,
+                "thu": true,
+                "fri": true,
+                "sat": true,
+                "sun": false
+        },
+        "min-pay": 22,
+        "rating": 5
+    },
+    {
+        "name": "Christine",
+        "age": 23,
+        "location": {
+                    "city": "New York City",
+                    "state": "NY"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Public Speaking", "Computer Skills", "Time Management"],
+        "workHistory": [{ "title": "Hair Stylist ", "company": "Great Clips" }],
+        "contact": {
+                    "phone": "315-262-0725",
+                    "email": "Christine@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": false,
+                "wed": true,
+                "thu": true,
+                "fri": true,
+                "sat": true,
+                "sun": false
+        },
+        "min-pay": 22,
+        "rating": 4
+    },
+    {
+        "name": "Glenn",
+        "age": 17,
+        "location": {
+                    "city": "Chicago",
+                    "state": "IL"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Problem-solving", "Interpersonal skills", "Customer service"],
+        "workHistory": [{ "title": "Cashier ", "company": "Smoothie King" }],
+        "contact": {
+                    "phone": "847-967-7929",
+                    "email": "Glenn@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": true,
+                "tue": true,
+                "wed": false,
+                "thu": true,
+                "fri": false,
+                "sat": true,
+                "sun": false
+        },
+        "min-pay": 14,
+        "rating": 2
+    },
+    {
+        "name": "Colin",
+        "age": 19,
+        "location": {
+                    "city": "Chicago",
+                    "state": "IL"
+                },
+        "img": {
+                "url": "",
+                "title": "Profile Picture"
+            },
+        "skills": ["Problem-solving", "Communication", "Customer service"],
+        "workHistory": [{ "title": "Driver ", "company": "Uber" }],
+        "contact": {
+                    "phone": "817-961-7326",
+                    "email": "Colin@fake-email.com"
+                },
+        "openForWork": true, 
+        "availability": {
+                "mon": false,
+                "tue": true,
+                "wed": true,
+                "thu": true,
+                "fri": true,
+                "sat": true,
+                "sun": false
+        },
+        "min-pay": 16,
+        "rating": 5
+    }
+]
