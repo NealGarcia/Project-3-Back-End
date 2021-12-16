@@ -2,8 +2,14 @@ const mongoose = require('../connection');
 
 const EmployeeSchema = new mongoose.Schema(
     {
-        name: String,
-        age: Number,
+        name: { 
+            type: String,
+            required: true
+        },
+        age: { 
+            type: Number,
+            required: true
+            },
         location: {
                     city: String,
                     state: String
