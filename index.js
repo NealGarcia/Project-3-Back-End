@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const employeeController = require('./controllers/employee')
-app.use('/', employeeController)
+app.use('/api/', employeeController)
 
 app.listen(app.get('port'), () => {
     console.log(`Port: ${app.get('port')}`)
