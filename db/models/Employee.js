@@ -1,4 +1,4 @@
-const mongoose = require('../connection');
+const mongoose = require("../connection");
 
 const EmployeeSchema = new mongoose.Schema(
     {
@@ -14,10 +14,14 @@ const EmployeeSchema = new mongoose.Schema(
                     city: String,
                     state: String
                   },
-        img: {
-                url: String,
-                title: String
-             },
+                  img: {
+                    url: {
+                      type: String,
+                      default:
+                        "https://thumbs.dreamstime.com/b/no-user-profile-picture-24185395.jpg",
+                    },
+                    title: String,
+                  },
         skills: [String],
         workHistory: [{ title: String, company: String }],
         contact: {
@@ -42,8 +46,8 @@ const EmployeeSchema = new mongoose.Schema(
                     min: 0,
                     max: 5
                 }
-    },
-    {timestamps: true}
+            },
+  { timestamps: true }
 );
 
 const Employee = mongoose.model("Employee", EmployeeSchema);

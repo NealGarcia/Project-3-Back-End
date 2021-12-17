@@ -37,7 +37,6 @@
                     "state": "IL"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Customer Service", "Inventory Mangement", "Sales"],
@@ -67,7 +66,6 @@
                     "state": "TX"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Problem Solving", "Mangement", "Writing"],
@@ -97,7 +95,6 @@
                     "state": "TX"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Public Speaking", "Computer Skills", "Time Management"],
@@ -127,7 +124,6 @@
                     "state": "TX"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Problem Solving", "Communication", "Time Management"],
@@ -157,7 +153,6 @@
                     "state": "CA"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Leadership", "Problem-solving", "Food Prep"],
@@ -187,7 +182,6 @@
                     "state": "WA"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Customer Service", "Interpersonal skills", "Leadership"],
@@ -217,7 +211,6 @@
                     "state": "NY"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Public Speaking", "Computer Skills", "Time Management"],
@@ -247,7 +240,6 @@
                     "state": "IL"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Problem-solving", "Interpersonal skills", "Customer service"],
@@ -277,7 +269,6 @@
                     "state": "IL"
                 },
         "img": {
-                "url": "",
                 "title": "Profile Picture"
             },
         "skills": ["Problem-solving", "Communication", "Customer service"],
