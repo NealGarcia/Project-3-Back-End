@@ -1,7 +1,6 @@
 {
-  "name": "Project-3-Back-End",
+  "name": "project-3-back-end",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +21,6 @@
     "express": "^4.17.1",
     "mongoose": "^6.1.2",
     "nodemon": "^2.0.15"
-  }
+  },
+  "description": ""
 }
