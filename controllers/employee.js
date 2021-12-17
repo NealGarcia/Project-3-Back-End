@@ -31,7 +31,6 @@ EmployeeRouter.patch('/:id', (req, res, next) => {
     Employee.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
     .then(employee => res.json(employee))
     .catch(next)
-})
-
+});
 
 module.exports = EmployeeRouter
