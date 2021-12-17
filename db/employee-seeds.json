@@ -13,7 +13,7 @@
         "skills": ["Coding", "Customer Service", "Design"],
         "workHistory": [{ "title": "Programmer", "company": "GA" }],
         "contact": {
-                    "phone": "512-915-1613",
+                    "phone": "512-555-1613",
                     "email": "neal@fake-email.com"
                 },
         "openForWork": true, 
@@ -42,7 +42,7 @@
         "skills": ["Customer Service", "Inventory Mangement", "Sales"],
         "workHistory": [{ "title": "Stocker", "company": "Kroger" }],
         "contact": {
-                    "phone": "614-273-1741",
+                    "phone": "614-555-1741",
                     "email": "david@fake-email.com"
                 },
         "openForWork": true, 
@@ -71,7 +71,7 @@
         "skills": ["Problem Solving", "Mangement", "Writing"],
         "workHistory": [{ "title": "Manager", "company": "Wal-Mart" }],
         "contact": {
-                    "phone": "834-523-7929",
+                    "phone": "834-555-7929",
                     "email": "Michael@fake-email.com"
                 },
         "openForWork": true, 
@@ -100,7 +100,7 @@
         "skills": ["Public Speaking", "Computer Skills", "Time Management"],
         "workHistory": [{ "title": "Cashier", "company": "Macy's" }],
         "contact": {
-                    "phone": "834-847-9432",
+                    "phone": "834-555-9432",
                     "email": "Elizabeth@fake-email.com"
                 },
         "openForWork": true, 
@@ -129,7 +129,7 @@
         "skills": ["Problem Solving", "Communication", "Time Management"],
         "workHistory": [{ "title": "Sales Associate", "company": "H&M" }],
         "contact": {
-                    "phone": "369-151-6023",
+                    "phone": "369-555-6023",
                     "email": "Allison@fake-email.com"
                 },
         "openForWork": true, 
@@ -158,7 +158,7 @@
         "skills": ["Leadership", "Problem-solving", "Food Prep"],
         "workHistory": [{ "title": "Cook", "company": "Taco Bell" }],
         "contact": {
-                    "phone": "315-111-0829",
+                    "phone": "315-555-0829",
                     "email": "Johnny@fake-email.com"
                 },
         "openForWork": true, 
@@ -187,7 +187,7 @@
         "skills": ["Customer Service", "Interpersonal skills", "Leadership"],
         "workHistory": [{ "title": "Hair Stylist ", "company": "Great Clips" }],
         "contact": {
-                    "phone": "315-262-0725",
+                    "phone": "315-555-0725",
                     "email": "Mary@fake-email.com"
                 },
         "openForWork": true, 
@@ -216,7 +216,7 @@
         "skills": ["Public Speaking", "Computer Skills", "Time Management"],
         "workHistory": [{ "title": "Hair Stylist ", "company": "Great Clips" }],
         "contact": {
-                    "phone": "315-262-0725",
+                    "phone": "315-555-0725",
                     "email": "Christine@fake-email.com"
                 },
         "openForWork": true, 
@@ -245,7 +245,7 @@
         "skills": ["Problem-solving", "Interpersonal skills", "Customer service"],
         "workHistory": [{ "title": "Cashier ", "company": "Smoothie King" }],
         "contact": {
-                    "phone": "847-967-7929",
+                    "phone": "847-555-7929",
                     "email": "Glenn@fake-email.com"
                 },
         "openForWork": true, 
@@ -274,7 +274,7 @@
         "skills": ["Problem-solving", "Communication", "Customer service"],
         "workHistory": [{ "title": "Driver ", "company": "Uber" }],
         "contact": {
-                    "phone": "817-961-7326",
+                    "phone": "817-555-7326",
                     "email": "Colin@fake-email.com"
                 },
         "openForWork": true, 
