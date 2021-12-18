@@ -26,7 +26,7 @@
                 "sat": false,
                 "sun": false
         },
-        "min-pay": 20,
+        "pay": 20,
         "rating": 5
     },
     {
@@ -55,7 +55,7 @@
                 "sat": true,
                 "sun": false
         },
-        "min-pay": 18,
+        "pay": 18,
         "rating": 2
     },
     {
@@ -84,7 +84,7 @@
                 "sat": true,
                 "sun": false
         },
-        "min-pay": 22,
+        "pay": 22,
         "rating": 4
     },
     {
@@ -113,7 +113,7 @@
                 "sat": false,
                 "sun": false
         },
-        "min-pay": 25,
+        "pay": 25,
         "rating": 4
     },
     {
@@ -142,7 +142,7 @@
                 "sat": false,
                 "sun": false
         },
-        "min-pay": 15,
+        "pay": 15,
         "rating": 3
     },
     {
@@ -171,7 +171,7 @@
                 "sat": true,
                 "sun": true
         },
-        "min-pay": 15,
+        "pay": 15,
         "rating": 5
     },
     {
@@ -200,7 +200,7 @@
                 "sat": true,
                 "sun": false
         },
-        "min-pay": 22,
+        "pay": 22,
         "rating": 5
     },
     {
@@ -229,7 +229,7 @@
                 "sat": true,
                 "sun": false
         },
-        "min-pay": 22,
+        "pay": 22,
         "rating": 4
     },
     {
@@ -258,7 +258,7 @@
                 "sat": true,
                 "sun": false
         },
-        "min-pay": 14,
+        "pay": 14,
         "rating": 2
     },
     {
@@ -287,7 +287,7 @@
                 "sat": true,
                 "sun": false
         },
-        "min-pay": 16,
+        "pay": 16,
         "rating": 5
     }
 ]
