@@ -40,7 +40,9 @@ const EmployeeSchema = new mongoose.Schema(
                 sat: {type: Boolean},
                 sun: {type: Boolean}
                 },
-        minPay: Number,
+        pay: {
+                type: Number
+              },
         rating: {
                     type: Number,
                     min: 0,
