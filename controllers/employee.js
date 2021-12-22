@@ -15,6 +15,12 @@ EmployeeRouter.get('/employee/:id', (req, res, next) => {
     .catch(next)
 });
 
+EmployeeRouter.patch('/employee/:id', (req, res, next) => {
+    Employee.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
+    .then(employee => res.json(employee))
+    .catch(next)
+});
+
 EmployeeRouter.get('/search', (req, res, next) => {
     let query = {}
     const dayArr = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
@@ -43,12 +49,6 @@ EmployeeRouter.post('/', (req, res, next) => {
 
 EmployeeRouter.delete('employee/:id', (req, res, next) => {
     Employee.findOneAndDelete({_id: req.params.id})
-    .then(employee => res.json(employee))
-    .catch(next)
-});
-
-EmployeeRouter.patch('employee/:id', (req, res, next) => {
-    Employee.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
     .then(employee => res.json(employee))
     .catch(next)
 });
