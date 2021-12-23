@@ -31,7 +31,7 @@ const EmployeeSchema = new mongoose.Schema(
         openForWork: {
                         type: Boolean
                         }, 
-        availabilgitity: {
+        availability: {
                 mon: {type: Boolean,
                 default: false},
                 tue: {type: Boolean,
