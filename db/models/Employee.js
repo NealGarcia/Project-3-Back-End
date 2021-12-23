@@ -32,13 +32,20 @@ const EmployeeSchema = new mongoose.Schema(
                         type: Boolean
                         }, 
         availability: {
-                mon: {type: Boolean},
-                tue: {type: Boolean},
-                wed: {type: Boolean},
-                thu: {type: Boolean},
-                fri: {type: Boolean},
-                sat: {type: Boolean},
-                sun: {type: Boolean}
+                mon: {type: Boolean,
+                default: false},
+                tue: {type: Boolean,
+                default: false},
+                wed: {type: Boolean,
+                  default: false},
+                thu: {type: Boolean,
+                  default: false},
+                fri: {type: Boolean,
+                  default: false},
+                sat: {type: Boolean,
+                  default: false},
+                sun: {type: Boolean,
+                  default: false}
                 },
         pay: {
                 type: Number
