@@ -30,6 +30,7 @@ EmployeeRouter.get('/search', (req, res, next) => {
     if(req.query.age) query["age"] = {$gte: req.query.age}
     if(req.query.pay) query["pay"] = {$lte: req.query.pay}
     if(req.query.rating) query["rating"] = {$gte: req.query.rating}
+    if (req.query.id) query["_id"] = req.query.id
     Employee.find(query)
     .then(employee => res.json(employee))
     .catch(next)
