@@ -48,7 +48,7 @@ EmployeeRouter.delete('employee/:id', (req, res, next) => {
     .catch(next)
 });
 
-EmployeeRouter.patch('employee/:id', (req, res, next) => {
+EmployeeRouter.patch('/employee/:id', (req, res, next) => {
     Employee.findOneAndUpdate({_id: req.params.id}, req.body, { new: true })
     .then(employee => res.json(employee))
     .catch(next)
