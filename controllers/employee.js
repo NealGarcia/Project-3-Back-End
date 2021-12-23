@@ -42,7 +42,7 @@ EmployeeRouter.post('/', (req, res, next) => {
     .catch(next)
 });
 
-EmployeeRouter.delete('employee/:id', (req, res, next) => {
+EmployeeRouter.delete('/employee/:id', (req, res, next) => {
     Employee.findOneAndDelete({_id: req.params.id})
     .then(employee => res.json(employee))
     .catch(next)
